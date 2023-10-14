@@ -19,11 +19,11 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          // console.log(result.text);
+          console.log(result.text);
           setIsSuccessful(true);
         },
         (error) => {
-          // console.log(error.text);
+          console.log(error.text);
         }
       );
   };

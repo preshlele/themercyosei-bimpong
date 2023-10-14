@@ -16,9 +16,9 @@ const Profile = () => {
             is found here
           </div>
         </div>
-        <div className="block lg:flex lg:flex-wrap lg:px-52   mt-7">
-          <div className=" flex-1 p-5">
-            <div className="text-[#8A8787] text-sm lg:text-base text-justify pb-8 lg:w-[25rem]">
+        <div className="grid lg:grid-cols-2 gap-4  lg:px-[11rem] mx-auto mt-7">
+          <div className="p-5">
+            <div className="text-[#8A8787] text-sm lg:text-base text-justify pb-8 ">
               <h2 className="text-black font-bold lg:text-xl">Profile</h2>
               With over 8 years in the financial realm, I bring a wealth of
               experience and in-depth insight to every client, accounting and
@@ -31,11 +31,11 @@ const Profile = () => {
               support, and innovation towards goal achievement
             </div>
           </div>
-          <div className="flex-1 p-5  lg:w-[26rem]">
+          <div className=" p-5">
             <h2 className="font-bold lg:text-xl">
               Education and Professional Qualification
             </h2>
-            <div className="pt-2">
+            <div className="pt-2 ">
               {educationData.map((entry, index) => (
                 <div key={index} className="lg:text-base">
                   <div className="flex items-center gap-3">
@@ -51,7 +51,7 @@ const Profile = () => {
             </div>
           </div>
         </div>
-        <div className="mb-32 mt-10 lg:px-[14rem] mx-auto p-4  ">
+        <div className="mb-32 mt-10 lg:px-[12.4rem] mx-auto p-4  ">
           <h2 className="font-bold lg:text-xl">Skills</h2>
           <div className="text-justify text-sm lg:text-base text-[#8A8787]">
             IFRS, IPSAS, GAAP; Financial Planning and Budgeting, Change and
@@ -69,7 +69,7 @@ const Profile = () => {
           </span>
         </div>
         <div className="pb-28">
-          <h2 className="text-4xl lg:text-6xl  text-[#3C0D79] font-semibold text-center pb-1 px-3 lg:w-[64rem]  mx-auto">
+          <h2 className="text-4xl lg:text-6xl  text-[#3C0D79] font-semibold text-center pb-1 px-3 lg:w-[56rem] mx-auto">
             Experience that counts: navigating finances with expertise
           </h2>
           <div className="text-center text-sm lg:text-lg text-[#8A8787] pb-6">
