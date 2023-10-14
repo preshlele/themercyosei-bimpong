@@ -10,6 +10,7 @@ const Banner = () => {
         src="/blurry-gradient-haikei.png"
         alt="blur-bg"
         fill
+        priority
         className="absolute inset-0 w-full object-cover blur-[15rem]"
       />
       <div>
